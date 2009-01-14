@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>HealthTech Knowledgebase</title>
+<%= stylesheet_link_tag "style" %>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen" />
+<%= javascript_include_tag :defaults %>
+<%= active_scaffold_includes %>
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">HealthTech Knowledge Base</a></h1>
+		<p>Development and Design by the HealthTech IT department</p>
+	</div>
+	<!-- end #logo -->
+	<div id="menu">
+		<ul>
+			<li><%= link_to "My Dashboard" ,dashboards_path %></li>
+			<li><%= link_to "Abstracts" ,abstracts_path %></li>
+			<li><a href="healthtechcenter.grouphub.com">Basecamp</a></li>
+			<li><a href="http://groups.diigo.com/groups/health_tech">Diigo Group</a></li>
+			<li><a href="http://healthtech.batchbook.com">Batchbook</a></li>
+			<li><a href="http://admin.mailchimp.com">Mailchimp</a></li>
+			
+			
+		</ul>
+	</div>
+	<!-- end #menu -->
+</div>
+<!-- end #header -->
+<%= yield %>
+</body>
+</html>
+
