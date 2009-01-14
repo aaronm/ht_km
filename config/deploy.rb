@@ -4,7 +4,7 @@ set :deploy_to, "/home/rails_apps/#{application}"
 #	Settings
 #############################################################
 default_run_options[:pty] = true
-set :use_sudo, false
+set :use_sudo, true
 #############################################################
 #	Servers
 #############################################################

@@ -10,7 +10,6 @@ class MetaWeblogController < ApplicationController
 
     def newPost(blogid, username, password, post, publish)
 
-        print blogid + username + password + post.description
         return "great success"
 
     end

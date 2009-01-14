@@ -19,7 +19,7 @@
 		<ul>
 			<li><%= link_to "My Dashboard" ,dashboards_path %></li>
 			<li><%= link_to "Abstracts" ,abstracts_path %></li>
-			<li><a href="healthtechcenter.grouphub.com">Basecamp</a></li>
+			<li><a href="http://healthtechcenter.grouphub.com">Basecamp</a></li>
 			<li><a href="http://groups.diigo.com/groups/health_tech">Diigo Group</a></li>
 			<li><a href="http://healthtech.batchbook.com">Batchbook</a></li>
 			<li><a href="http://admin.mailchimp.com">Mailchimp</a></li>
@@ -31,8 +31,10 @@
 	</div>
 	<!-- end #menu -->
 </div>
+<div id="content">
 <!-- end #header -->
 <%= yield %>
+</div>
 </body>
 </html>
 
